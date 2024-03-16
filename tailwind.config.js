@@ -5,6 +5,7 @@ export default {
     extend: {
       fontFamily: {
         salsa: ["Salsa", "cursive"],
+        ultra: ["Ultra", "system-ui"],
       },
     },
   },

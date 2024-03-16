@@ -1,3 +1,4 @@
+import { Footer } from "./Footer";
 import { Navbar } from "./Navbar";
 
 export const Layout = ({ children }: { children: React.ReactNode }) => {
@@ -10,7 +11,7 @@ export const Layout = ({ children }: { children: React.ReactNode }) => {
         <div className="mx-auto max-w-3xl space-y-20">{children}</div>
       </main>
 
-      <div>Footer</div>
+      <Footer />
     </div>
   );
 };
